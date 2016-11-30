@@ -9,7 +9,7 @@ func posNeg( firstValue: Int, secondValue: Int, negative: Bool) -> Bool {
         }else {
             return false
         }
-    } else if (firstValue < 0 && secondValue > 0) || (firstValue > 0 && secondValue < 0){
+    } else if (firstValue < 0 && secondValue > 0) || (firstValue > 0 && secondValue < 0) {
         return true
     }else {
         return false

@@ -6,8 +6,9 @@ import UIKit
 func icyHot(firstTemp : Int, secondTemp: Int) -> Bool {
     if ((firstTemp < 0) && (secondTemp > 100)) || ((firstTemp > 100) && (secondTemp < 0)) {
         return true
-    }else {
-        return false }
+    } else {
+        return false
+    }
 }
 
 icyHot(firstTemp: 120, secondTemp: -1) == true
